@@ -1,0 +1,88 @@
+body{
+    
+    font-family: 'Times New Roman', Times, serif;
+    background-color: transparent;
+    background-image: linear-gradient(to right, rgb(200, 241, 196) , white
+    );
+}
+.odin{
+    width: 60%;
+    height: 100px;
+    margin: 10px auto;
+    text-align: center;
+   
+}
+.caption{
+    font-size: 75px;
+    color: rgb(53, 14, 230);
+    margin-left: 100px ;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    
+   
+   }
+.caption:hover{
+    color: red;
+}
+.bckgrnd{
+    float: right;
+    
+    height: 900px;
+    width: 20%;
+    opacity: 1;
+    
+   }
+
+.list{
+    padding-top: 300px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+   
+}
+.items{
+    color: rgb(53, 14, 230);
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 100px;
+    text-decoration: none;
+    
+    }
+.items:hover{
+     color: red;
+    }
+.lasagna:hover{
+    position: relative;
+    width: 10px;
+    height: 10px;
+}
+.lasagna:hover::after{
+    content: url(../odin-recipes/img/lasagna.jpeg);
+    display:block;
+    position: absolute;
+    left: 0px;
+    bottom: 50px;
+    
+}
+.omlette:hover{
+    position: relative;
+}
+.omlette:hover::after{
+    content: url(../odin-recipes/img/omelette.jpeg);
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 50px;
+}
+.shepherdspie:hover{
+    position: relative;
+}
+.shepherdspie:hover::after{
+    content: url(../odin-recipes/img/shepspie.jpeg);
+    display: block;
+    position: absolute;
+    left: 0px;
+    bottom: 50px;
+   }

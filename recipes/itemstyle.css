@@ -1,0 +1,18 @@
+body{
+    background-image: linear-gradient(to right, rgb(160, 243, 152) , rgb(241, 177, 177));
+    font-family: 'Times New Roman', Times, serif;
+}
+.recip{
+    color: blue;
+    text-align: center;
+    font-style: italic;
+    text-decoration: none;
+
+}
+.home{
+    text-align: center;
+    color: blue;
+}
+.home:hover{
+    color: red;
+}
